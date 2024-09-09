@@ -2,23 +2,13 @@
   "cSpell.words": [
     "antfu",
     "Attributify",
-    "giscus",
-    "Gitcus",
     "headlessui",
-    "hedgedoc",
     "iconify",
-    "mambaforge",
     "mathjax",
-    "miniforge",
     "nolebase",
-    "pipenv",
-    "pixi",
     "unlazy",
-    "unocss",
-    "unplugin",
     "vitepress",
-    "vuedraggable",
-    "xlink"
+    "vuedraggable"
   ],
   "prettier.enable": false,
   "editor.formatOnSave": false,
@@ -47,5 +37,10 @@
   "unocss.root": [
     "."
   ],
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#3A2C04",
+    "titleBar.activeBackground": "#523D05",
+    "titleBar.activeForeground": "#FEFAED"
+  }
 }

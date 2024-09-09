@@ -7,7 +7,7 @@ import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-p
 import { PageProperties, PagePropertiesMarkdownSection } from '@nolebase/vitepress-plugin-page-properties/vite'
 import { ThumbnailHashImages } from '@nolebase/vitepress-plugin-thumbnail-hash/vite'
 
-import { creators, githubRepoLink } from './metadata'
+import { githubRepoLink } from './metadata'
 
 export default defineConfig(async () => {
   return {
@@ -23,9 +23,14 @@ export default defineConfig(async () => {
       Inspect(),
       GitChangelog({
         repoURL: () => githubRepoLink,
-        mapAuthors: creators,
       }),
       GitChangelogMarkdownSection({
+        getChangelogTitle: (): string => {
+          return '文件历史'
+        },
+        getContributorsTitle: (): string => {
+          return '贡献者'
+        },
         excludes: [
           'toc.md',
           'index.md',
