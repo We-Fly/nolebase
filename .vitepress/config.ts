@@ -8,7 +8,7 @@ import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-in
 import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress'
 import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
 
-import { discordLink, githubRepoLink, siteDescription, siteName, targetDomain } from '../metadata'
+import { githubRepoLink, siteDescription, siteName, targetDomain } from '../metadata'
 import { creatorNames, creatorUsernames } from './creators'
 import { sidebar } from './docsMetadata.json'
 
@@ -134,12 +134,12 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: githubRepoLink },
-      { icon: 'discord', link: discordLink },
+      // { icon: 'discord', link: discordLink },
     ],
     footer: {
       message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
       copyright:
-        '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT Nólëbase 的创作者们',
+        '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2021-PRESENT 开飞机实验室',
     },
     search: {
       provider: 'local',
@@ -209,7 +209,7 @@ export default defineConfig({
     },
     nav: [
       { text: '主页', link: '/' },
-      { text: '笔记', link: '/笔记/' },
+      { text: '文档', link: '/文档/' },
       { text: '最近更新', link: '/toc' },
     ],
     sidebar,
