@@ -207,6 +207,27 @@ Host example.com # 远程主机的别名
 
 然后就可以点击添加的服务器右侧的按钮进行连接
 
+### 如果Github无法使用SSH克隆仓库
+
+可以尝试使用443端口连接，在~/.ssh/config文件下添加下面的内容
+
+```text
+Host github.com
+    User git
+    Port 443
+    HostName ssh.github.com
+```
+
+### Github和Gitee的用户名不一样
+
+可以手动指定Gitee的用户名，在~/.ssh/config文件下添加下面的内容
+
+```text
+Host gitee.com
+    HostName gitee.com
+    User <你的用户名>
+```
+
 ## Canokey 配置
 
 如果你没有`YubiKey`或者`Canokeys`的话，就不需要进行下面的操作
