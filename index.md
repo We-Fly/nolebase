@@ -21,7 +21,7 @@ hero:
       link: https://qm.qq.com/q/RzLTZLTReO
     - theme: alt
       text: GitHub 上浏览
-      link: https://github.com/nolebase/nolebase
+      link: https://github.com/We-Fly/nolebase
 
 features:
   - title: 多样的主题和内容
