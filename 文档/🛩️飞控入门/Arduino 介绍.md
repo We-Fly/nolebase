@@ -130,8 +130,6 @@ CH340驱动在文档前面也有，大家自行下载！
 
 [CH340官方](http://www.wch-ic.com/downloads/CH341SER_EXE.html)
 
-[CH340官方1](https://nas.dustella.net/s/B8dIO)
-
 ## 推荐阅读
 
-- [Arduino 控制舵机教程](guide-arduino-servo.md)
+- [Arduino 控制舵机教程](/文档/🛩️飞控入门/Arduino%20控制舵机教程.md)

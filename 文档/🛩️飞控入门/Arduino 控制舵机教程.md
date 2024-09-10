@@ -18,11 +18,9 @@ title: Arduino 控制舵机教程
 - 杜邦线若干
 - SG90舵机
 
-@include(../flight/intro-arduino.md{8-36})
+## Arduino IDE 安装教程
 
-## [Arduino IDE 安装教程](/flight/intro-arduino.md#arduino-安装)
-
-详见 [Arduino IDE 安装](/flight/intro-arduino.md#arduino-安装)
+详见 [Arduino IDE 安装](/文档/🛩️飞控入门/Arduino%20介绍.md#Arduino安装)
 
 ## 舵机简单介绍
 
