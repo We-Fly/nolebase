@@ -6,6 +6,9 @@ title: Visual Studio Code 安装配置
 页面大纲：
 [[toc]]
 
+>[!WARNING]
+可以参阅[OI Wiki的教程](https://oi.wiki/tools/editor/vscode/)
+
 ## 前置知识
 
 阅读本篇文章需要的前置知识
