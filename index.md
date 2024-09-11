@@ -17,8 +17,8 @@ hero:
       text: 开始阅读
       link: /文档/index
     - theme: alt
-      text: 加入 24届招新群
-      link: https://qm.qq.com/q/RzLTZLTReO
+      text: 贡献内容
+      link: /文档/✍️写在前面/如何贡献内容
     - theme: alt
       text: GitHub 上浏览
       link: https://github.com/We-Fly/nolebase
